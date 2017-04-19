@@ -1,0 +1,128 @@
+.find-p1{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-image: url("../images/find-p1-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	.content{
+		position: absolute;
+		bottom: 0;
+		left: 8.3%;
+		width: 80%;
+		height: 15em;
+	}
+	.content1,.content2{
+		display: inline-block;
+		padding: 0 3em;
+	}
+	.content1{
+		padding-left:0;
+	}
+	.content2{
+		border-left: 1px solid @sky-blue; 
+	}
+	.subTitle{
+		color: @orange;
+	}
+}
+.find-p2{
+	width: 100%;
+	height: 500px;
+	.content{
+		margin-top: 5em;
+		height: 12em;
+		border-width: 1px 1px 1px 0;
+		border-style:solid;
+		border-color: #cfcfcf;
+	}
+	.content:first-child {
+		border-left: 1px solid #cfcfcf;
+	}
+	.contentT{
+		width: 100%;
+		height: 50%;
+		background-color: #e8e8e8;
+
+	}
+	.circle{
+		display: inline-block;
+		margin-top: -2em;
+		width: 6em;
+		height: 6em;
+		border-radius: 3em;
+		background-color: @find-p2-color1;
+		color: white;
+		.title{
+			margin: 1.1em 0 0 0;
+		}
+	}
+	.hr{
+		width: 20%;
+		border-color: @orange;
+	}
+	.title,.subTitle{
+		margin: .2em 0 0 0;
+	}
+	.btn{
+		margin-top: 6em;
+	}
+}
+.find-p3{
+	height: 500px;
+	background-image: url(../images/find-p3-blue.png),url(../images/find-p3-yellow.png),url(../images/find-p3-red.png);
+	background-repeat: no-repeat;
+	background-position: bottom right 15%;
+	.title{
+		font-size:115%;
+		padding: 0 .5em;
+		color: @sky-blue; 
+	}
+	.subTitle{
+		display: inline-block;
+		padding: 0 .2em;
+		margin: .5em 0 0 0;
+	}
+	.content{
+		margin-left: 3em;
+	}
+}
+.find-p4{
+	height: 580px;
+	.contain{
+		display: inline-block;
+		margin-top: 1.5em;
+		width: @find-p4-contain-width;
+		height: 370px;
+	}
+	.content{
+		position: relative;
+		display: inline-block;
+		float: left;
+		overflow: hidden;
+		width: @find-p4-img-width1;
+		height: 100%;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		-webkit-transition:all .5s ease-in-out;
+		transition:all .5s ease-in-out;
+	}
+	.content1{
+		background-image: url(../images/find-p4-1.png);
+	}
+	.content2{
+		background-image: url(../images/find-p4-2.png);
+		width: @find-p4-img-width2;
+	}
+	.content3{
+		background-image: url(../images/find-p4-3.png);
+		width: @find-p4-img-width2;
+	}
+	.text{
+		color: white;
+		position: absolute;
+		width: 200px;
+		top: 30%;
+		left: 270px;
+	}
+}

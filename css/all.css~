@@ -1,0 +1,36 @@
+.h-navbar-h {
+  height: 40px;
+}
+.h-bg {
+  background-color: #50b6d4;
+}
+.h-nav {
+  font-size: 80%;
+}
+.h-nav a {
+  padding: 0 1em;
+}
+.h-nav a:link,
+.h-nav a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.h-nav a:hover,
+.h-nav a:active {
+  color: #fc837d;
+  text-decoration: none;
+}
+.h-button {
+  background-color: transparent;
+  color: white;
+  padding: .3em 1.4em;
+  border: 2px solid white;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.h-button:hover {
+  background-color: #fc837d;
+}
+.h-banner {
+  height: 80px;
+}

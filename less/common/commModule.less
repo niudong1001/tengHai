@@ -1,0 +1,47 @@
+.c-btn(){
+	padding: @c-btn-paddingTB @c-btn-paddingLR;
+	border-radius: @c-btn-radius;
+	color: white;
+}
+.c-btn1{
+	.c-btn();
+	.bg-hover(transparent,@orange);
+	border:2px solid white;
+	font-size: 95%;
+	vertical-align: 1px;
+}
+.c-btn2{
+	.c-btn();
+	.bg-hover(@sky-blue,@orange);
+	border:1px solid white;
+	font-size: 95%;
+}
+.c-btn3{
+	.c-btn();
+	.bg-hover(@dark-blue,@orange);
+	padding: .5em 1.2em;
+}
+.logReg-p1{
+	padding: 50px 200px;
+	background-color: #f0f0f0;
+	background-clip: content-box;
+	.title{
+		margin: 0;
+		padding-top: 1em;
+	}
+	.icons{
+		i{
+			font-size: 300%;
+		}
+		.icon{
+			display: inline-block;
+			margin: 1.1em 2.5em;
+		}
+	}
+
+	.btn-block{
+		margin: .8em 0;
+		padding: .5em 0;
+		margin-bottom: 4em;
+	}
+}
